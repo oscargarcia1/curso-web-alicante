@@ -1,0 +1,240 @@
+@charset="utf-8";
+
+body{
+	box-sizing: border-box;
+	font-family: 'Acme', sans-serif;
+}
+
+ul{
+	list-style: none;
+}
+
+ul.dotvisible{
+	list-style: disc;
+}
+
+a:link:visited{
+	font-style: black;/**/
+}	
+
+body{
+	border: 5px solid 	#405156;
+	border-radius: 12px;
+	margin: 0px;
+}
+
+.separado{
+	border-top: 2.5px #54000b groove;
+}
+
+.separado:hover{
+	border-top: 2.5px white groove;
+	background-color: orange;
+}
+
+h1{
+	text-align: center;
+}
+video{
+	border-radius: 12px;
+	background-color: black;
+	border-radius: 5px;
+}
+
+header{
+	background-color: 	#81a2ac;
+	border-bottom: 2.5px #54000b groove;
+}
+
+#inicio,#logo-header{
+	border-radius: 5px;
+}
+	
+#inicio{
+	width: 60px;
+	float: left;
+	
+}
+	
+.encabezado{
+	background-color: 	#4f4f4f;
+	overflow: auto;
+}
+
+#textcen,#capoeira{
+	width: 50%;
+	margin: auto;
+}
+
+#cen{
+	margin-left: 486px;
+}
+
+#titulo{
+	color: 	#b9b9b9;
+	padding-right: 45px;
+}
+
+.alta{
+	border-radius: 80px;
+}
+
+.inspiracion{
+	text-align:	center;
+	color:	#000099;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#textoizq{
+	float: left;
+	width: 40%;
+}
+
+#videofloat{
+	float: right;
+    width: 60%;
+    margin-bottom: 38px;
+	
+}
+
+.centrado{
+	margin-left: 44px;
+	width: 78%;
+    float: unset;
+}
+
+
+#div1{
+ 	
+}
+/*estos div colocar al lado del otro */
+#div2{
+ 	
+}
+
+#ancho{
+	height: 567px;
+}
+#formulario{
+	border: 15px outset #7e8b13;
+	background-image: url("../im/fondosobre.png");
+	padding-bottom: 54px;
+    padding-top: 153px;
+	margin: 73px  33%;
+}
+
+#contacto{
+	border-bottom: 2.5px #54000b groove;
+}
+
+.a{
+	float: left;
+	padding-top: 15px;
+	margin-right: 7px;
+}
+
+.b{
+	float: left;
+}
+
+#3{
+	margin-top: 33px;
+    margin-left: 32px;
+}
+
+.ullista{
+	padding-left: 0;
+}
+
+.puntosinmargen{
+	list-style: disc;
+	margin-left: o;
+}
+
+.puntoymargen{
+	list-style: disc;
+}
+
+article{
+	border-bottom: 2.5px #54000b groove;
+}
+
+
+#listaizq{
+	width: 40%;
+    margin-top: 80px;
+    margin-left: 80px;
+
+}
+
+#listadch{
+	
+	width: 40%;
+    margin-top: 80px;
+    margin-left: 80px;
+	
+}
+
+#article{
+	font-weight: bold;
+	background: linear-gradient(to bottom, #33cccc 16%, #ff9966 100%);
+}
+
+.negrita{
+	font-weight: bold;
+	border: 15px outset #add9e6;
+	border-top: none;
+}
+
+.bordecolor0{
+	border: #ff823f 15px outset;
+	float: left;
+	position: fixed;
+	background-color: white;
+}
+
+.bordecolor0:hover{
+	background: linear-gradient(to bottom, #33cccc 16%, #ff9966 100%);
+	color: white;
+}
+
+.bordecolor#bordecolor{
+	border: #ff823f 15px outset;
+	background-image: url(../im/ciclismo.jpg);
+	padding-bottom: 129px;
+	padding-top:	9%;
+}
+
+.bordecolor{
+	border: #ff823f 15px outset;
+}
+	
+
+footer{
+	background-color: 	#6c878f;
+}
+
+footer>address{
+	font-family: 'Charmonman', cursive;
+}
+
+.inicio2{
+	margin-top: 0%; 
+	padding-top: 1%;
+	color: #4f4f4f;
+	border: #ff823f 15px outset;
+	margin-bottom: 0%;
+	background: linear-gradient(to right, #add9e6 0%, #669999 100%);
+}
+
+.volver{
+	font-size: 19px;
+	background-color: #add9e6;
+	border-radius: 3px;
+}
+
+a:link:visited{/*no va*/
+	color: #0891d1;
+	text-decoration: #0891d1; 
+}
